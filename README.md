@@ -1,0 +1,2 @@
+## Virtual FLeet Management
+Building the fleet management for Admins where there is a simulator producing telemetry points to be used by Ingestion script, API, Database and then display real time metrics on dashboard
