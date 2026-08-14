@@ -1,3 +1,6 @@
 /my-notes.md
 /docker-compose.yml
-
+/src/IngestionAPI/bin
+/src/IngestionAPI/obj
+/src/Simulator/bin
+/src/Simulator/obj
