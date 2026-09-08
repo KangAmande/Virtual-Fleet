@@ -1,7 +1,8 @@
 using System.Net.Http.Json;
 using Shared;
 
-var client = new HttpClient { BaseAddress = new Uri("http://localhost:5000") };
+var apiBaseUrl = Environment.GetEnvironmentVariable("API_BASE_URL") ?? "http://localhost:5000";
+var client = new HttpClient { BaseAddress = new Uri(apiBaseUrl) };
 var random = new Random();
 
 // Simulate a small fleet of 3 vehicles
